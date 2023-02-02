@@ -12,6 +12,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { TarjetaheroesComponent } from './components/tarjetaheroes/tarjetaheroes.component';
 import { ImagenPipe } from './pipes/imagen.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -32,7 +33,8 @@ import { ImagenPipe } from './pipes/imagen.pipe';
     CommonModule,
     HeroesRoutingModule,
     FlexLayoutModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
     
   ]
 })
